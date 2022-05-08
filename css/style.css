@@ -1,0 +1,265 @@
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+{
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+}
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*Header Start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 11px;
+	width: 9%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 60px;
+	padding: 4px 1px 3px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*Header end*/
+/*Banner Start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*Banner end*/
+/*Perfect Start*/
+.perfect{
+	padding-top: 85px;
+	padding-bottom: 85px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+.p_content{}
+.p_light {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding: 12px 0px;
+}
+.p_h1{
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 30px;
+    font-weight: 400;
+}
+.p_text{
+	margin: 0;
+	line-height: 22px;
+}
+.mb{
+	margin-bottom: 45px;
+}
+/*Perfect end*/
+/*Vlog Start*/
+.vlog{
+	padding-top: 5px;
+	padding-bottom: 85px;
+}
+.vlogs{}
+/*single start*/
+.single{
+	margin-top: 80px;
+	width: 47%;
+	float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single_img{
+	margin-bottom: 25px;
+}
+.single_img img{
+	width: 100%;
+}
+/*single end*/
+/*Vlog end*/
+/*contact start*/
+.contact{
+	/*min-height: 300px;*/
+	padding: 70px 0;
+	background-color: #f0f0f0;
+}
+.sign_up{
+	text-align: center;
+}
+.p_h1{
+	margin-top: 0;
+	margin-bottom: 70px;
+    color: #626262;
+}
+.contact_form{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.contact_form input{
+	padding-left: 5px;
+	padding-right: 50px;
+	width: 320px;
+	height: 30px;
+	font-family: PlayfairDisplay,serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+/*.contact_form input:focus{
+	outline: 0;
+}*/
+.contact_form button{
+	position: absolute;
+	right: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+/*.contact_form button:focus{
+	outline: 0;
+}*/
+/*contact end*/
+/*Vlog2 start*/
+.vlog2{
+	padding-top: 80px;
+}
+.load{
+	margin: 130px 0 100px;
+	text-align: center;
+}
+.btn{
+	width: 160px;
+	height: 60px;
+	font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.btn:hover{
+	background-color: #626262;
+	color: white;
+}
+/*Vlog2 end*/
+/*footer start*/
+footer{
+	padding: 15px 0;
+	background-color: #f0f0f0;
+}
+.terms{
+	width: 30%;
+	float: left;
+}
+.terms ul{
+	padding: 0;
+}
+.terms ul li{
+	list-style: none;
+	float: left;
+}
+.terms ul li a{
+	margin: 0 15px;
+	font-family: PlayfairDisplay,serif;
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+
+}
+.terms ul li:first-child a{
+	margin-left: 0;
+}
+.terms ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.social{
+	width: 30%;
+	float: right;
+
+}
+.social ul{
+	float: right;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+.social ul li span{
+	font-family: PlayfairDisplay,serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.social ul li a{
+	margin: 0 15px;
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.social ul li:last-child a{
+	margin-right: 0;
+}
+.social ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*footer end*/
